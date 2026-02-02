@@ -1,0 +1,855 @@
+@media only screen and (max-width: 1500px) {
+    .nav {
+        max-width: 100%;
+    }
+    .logo .img {
+        width: 270px;
+        height: 92px;
+        margin-top: -5px; 
+        margin-left: 20px; 
+        margin-right: 40px;
+    }
+
+    .menu-main {
+        margin-right: 60px;
+    }
+    
+    .menu-main a {
+        font-size: 25px;
+    }
+    
+    button{
+        font-size: 11px;
+    }
+    body{
+       width:1500px;
+       background: #000 url(images/fon3.png); /* Фоновый цвет и фоновый рисунок*/
+		      color: #fff; /*Цвет текста на странице*/
+		      background-attachment: fixed; /* Фон страницы фиксируется */
+		      background-repeat: repeat-y; /* Изображение повторяется по горизонтали */
+              background-size: 1500px;
+    }
+
+    .galllina {
+        display: flex; flex-direction: column; justify-content: center;
+        width: 100%;
+    }
+
+    #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        object-fit: cover;
+        width: 300px;
+        height: 300px;
+    }
+    #myImg:hover {opacity: 0.7;}
+    
+    
+    #myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    }
+    
+    #myImg1:hover {opacity: 0.7;}
+    
+    #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    }
+    
+    #myImg2:hover {opacity: 0.7;}
+    
+    #myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 615px;
+    height: 300px;
+    }
+    
+    #myImg3:hover {opacity: 0.7;}
+    
+    #fotkagal {
+    height: 300px;
+    }
+    
+    #myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    }
+    
+    #myImg4:hover {opacity: 0.7;}
+    
+    #myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:300px; 
+    height:300px; 
+    }
+    
+    #myImg5:hover {opacity: 0.7;}
+    
+    #myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:300px; 
+    height:300px;
+    }
+    
+    #myImg6:hover {opacity: 0.7;}
+    
+    #myImg7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:300px; 
+    height:300px;
+    }
+    
+    #myImg7:hover {opacity: 0.7;}
+    
+    #myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    }
+    
+    #myImg8:hover {opacity: 0.7;}
+    
+    #myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 615px;
+    height: 300px;
+    }
+    
+    #myImg9:hover {opacity: 0.7;}
+    
+    #myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 457px;
+    height: 457px;
+    }
+    
+    #myImg10:hover {opacity: 0.7;}
+    
+    #myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 457px;
+    height: 457px;
+    }
+    
+    
+
+    #scrat {
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+    
+    #myImg11:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    justify-content: center;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal img{
+    height:80%;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+    footer{
+        width: 100%;
+    }
+    
+    .footer .row {
+        width: 200px;
+    }
+    
+    .footer .rrow {
+        
+        width: 800px;
+    }
+    
+    .footer .rrow ul{
+        margin-left: -83px;
+    }
+    
+    .footer .row ul li {
+        font-size: 20px;
+        width: 100%;
+        margin:0px -15px;
+    }
+    
+    .footer .rrow ul li {
+        font-size: 20px;
+        margin:0px 40px;
+        width: 100%;
+    }
+    
+    .footer .row ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li div{
+        margin-top: -23px;
+        text-decoration:none; 
+        color:gainsboro;
+    }
+}
+    
+    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    
+@media only screen and (max-width: 1280px) {
+
+    #divka {
+        max-width: 1280px;
+    }
+
+    #fotkagal {
+        max-width: 1280px;
+    }
+    .nav {
+        max-width: 100%;
+    }
+    .logo .img {
+        width: 220px;
+        height: 75px;
+        margin-top: -5px; 
+        margin-left: 60px; 
+        margin-right: 20px;
+    }
+
+    .menu-main {
+        margin-right: 60px;
+    }
+    
+    .menu-main a {
+        font-size: 18px;
+    }
+    
+    button{
+        font-size: 11px;
+    }
+    body{
+       width:1280px;
+       background: #000 url(images/fon3.png); /* Фоновый цвет и фоновый рисунок*/
+		      color: #fff; /*Цвет текста на странице*/
+		      background-attachment: fixed; /* Фон страницы фиксируется */
+		      background-repeat: repeat-y; /* Изображение повторяется по горизонтали */
+              background-size: 1280px;
+    }
+    
+
+    .galllina {
+        display: flex; flex-direction: column; justify-content: center;
+        width: 100%;
+    }
+    
+    footer{
+        width: 100%;
+    }
+    
+    .footer .row {
+        width: 200px;
+    }
+    
+    .footer .rrow {
+        
+        width: 800px;
+    }
+    
+    
+    .footer .rrow ul{
+        margin-left: -83px;
+    }
+    
+    .footer .row ul li {
+        font-size: 20px;
+        width: 100%;
+        margin:0px -15px;
+    }
+    
+    .footer .rrow ul li {
+        font-size: 20px;
+        margin:0px 40px;
+        width: 100%;
+    }
+    
+    .footer .row ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li div{
+        margin-top: -23px;
+        text-decoration:none; 
+        color:gainsboro;
+    }
+}
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    
+    
+@media only screen and (max-width: 768px) {
+    .upward {
+    width: 100px;
+    height: 115px;
+}
+
+.upward.active {
+    width: 100px;
+    height: 77px;
+}
+    
+    
+    
+    .nav {
+        top:0;
+        max-width: 100%;
+        height: 70px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .burger {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 30px;
+        margin-right: 50px;
+        margin-left: 5px;
+        z-index: 50;
+    }
+    .burger span {
+        position: absolute;
+        background-color: white;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 13px;
+        transition: all 0.4s ease 0s;
+    }
+    .burger:before,
+    .burger:after {
+        content: '';
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        transition: all 0.4s ease 0s;
+    }
+    
+    .burger:before {
+        top:0;
+    }
+    .burger:after {
+        bottom:0;
+    }
+    
+    .nav:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 70px;
+        background-color: #000;
+        z-index: 1;
+    }
+    
+    .burger.active:before {
+        transform: rotate(45deg);
+        top:14px;
+    }
+    .burger.active:after {
+        transform: rotate(-45deg);
+        bottom:14px;
+    }
+    .burger.active span {
+        transform: scale(0)
+    }
+    
+    .menu-main {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        top:-100%;
+        left:0;
+        right: 0;
+        width: 100%;
+        height: 280px;
+        background-color: #000;
+        z-index: 2;
+        
+    }
+    
+    .menu-main.active{
+        top:0;
+        width: 100%;
+        transition: all 0.8s ease 0s;
+    }
+    
+    .menu-main li{
+        margin-left: 0px;
+        font-size: 23px;
+    }
+    
+    .logo {
+        max-width: 230px;
+        margin-left: -20px;
+        z-index: 50;
+    }
+    
+    .logo .img {
+        width: 125px;
+        height: 42px;
+        margin-left: -20px;
+    }
+
+    .menu-main a {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    button{
+        font-size: 9px;
+        width: 125px;
+        height: 42px;
+        text-align: center;
+        padding: 7px;
+        margin-left: 30px;
+        margin-right: -70px;
+    }
+    body{
+       width:768px;
+       background: #000 url(images/fon3.png); /* Фоновый цвет и фоновый рисунок*/
+		      color: #fff; /*Цвет текста на странице*/
+		      background-attachment: fixed; /* Фон страницы фиксируется */
+		      background-repeat: repeat-y; /* Изображение повторяется по горизонтали */
+              background-size: 768px;
+    }
+    
+    
+    .galllina {
+        display: flex; flex-direction: column; justify-content: center;
+        width: 100%;
+    }
+
+    #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        object-fit: cover;
+        width: 180px;
+        height: 180px;
+    }
+    #myImg:hover {opacity: 0.7;}
+    
+    
+    #myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 180px;
+    height: 180px;
+    }
+    
+    #myImg1:hover {opacity: 0.7;}
+    
+    #myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 180px;
+    height: 180px;
+    }
+    
+    #myImg2:hover {opacity: 0.7;}
+    
+    #myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 375px;
+    height: 180px;
+    }
+    
+    #myImg3:hover {opacity: 0.7;}
+    
+    #fotkagal {
+    height: 180px;
+    max-width:768px;
+    }
+    
+    #myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 180px;
+    height: 180px;
+    }
+    
+    #myImg4:hover {opacity: 0.7;}
+    
+    #myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:180px; 
+    height:180px; 
+    }
+    
+    #myImg5:hover {opacity: 0.7;}
+    
+    #myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:180px; 
+    height:180px;
+    }
+    
+    #myImg6:hover {opacity: 0.7;}
+    
+    #myImg7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width:180px; 
+    height:180px;
+    }
+    
+    #myImg7:hover {opacity: 0.7;}
+    
+    #myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 180px;
+    height: 180px;
+    }
+    
+    #myImg8:hover {opacity: 0.7;}
+    
+    #myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 375px;
+    height: 180px;
+    }
+    
+    #myImg9:hover {opacity: 0.7;}
+    
+    #myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 275px;
+    height: 275px;
+    }
+    
+    #myImg10:hover {opacity: 0.7;}
+    
+    #myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 275px;
+    height: 275px;
+    }
+    
+    #divka {
+        height: 275px;
+        max-width: 768px;
+    }
+
+    #scrat {
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+    
+    #myImg11:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    justify-content: center;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal img{
+    height:80%;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+    footer{
+        width: 100%;
+    }
+    
+    .footer .row {
+        width: 200px;
+    }
+    
+    .footer .rrow {
+        
+        width: 800px;
+    }
+    
+    .footer .rrow ul{
+        margin-left: -83px;
+    }
+    
+    .footer .row ul li {
+        font-size: 20px;
+        width: 100%;
+        margin:0px -15px;
+    }
+    
+    .footer .rrow ul li {
+        font-size: 20px;
+        margin:0px 40px;
+        width: 100%;
+    }
+    
+    .footer .row ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li div{
+        margin-top: -23px;
+        text-decoration:none; 
+        color:gainsboro;
+    }
+}
+
+   
+    
+    footer{
+        width: 100%;
+    }
+    
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer .row {
+        width: 200px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .footer .rrow {
+        display: none;
+    }
+    
+    .footer .row ul{
+        text-align: center;
+    }
+    
+    .footer .rrow ul{
+        margin-left: -83px;
+    }
+    
+    .footer .row ul li {
+        font-size: 20px;
+        width: 100%;
+        margin:2px -15px;
+    }
+    
+    .social a {
+	display: block;
+        width: 108px;}
+    
+    .footer .rrow ul li {
+        font-size: 16px;
+        margin:10px 10px 10px 40px;
+        width: 100%;
+    }
+    
+    .footer .row ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li p {
+        font-size: 25px;
+    }
+    
+    .footer .rrow ul li div{
+        margin-top: -20px;
+        margin-left: -30px;
+        text-decoration:none; 
+        color:gainsboro;
+    }
+    
+    .footer1 .row p b{
+        font-size: 10px;
+    }
+    
+    .footer1 .row1 img {
+        width: 150px;
+        height: 30px;
+    }
+}

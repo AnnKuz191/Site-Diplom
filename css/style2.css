@@ -1,0 +1,111 @@
+body {
+    background: #000 url(images/fon3.png); /* Фоновый цвет и фоновый рисунок*/
+    color: #fff; /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+    background-size: 1875px;
+    }
+.osnov2 {
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.onas{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.onas1{
+    display: flex;
+}
+
+.onas1 img{
+    border-width: medium;
+    border-style: solid;
+    border-color: #00035b;
+}
+
+.imagesikik {
+    padding: 30px 0px 0px 60px;
+}
+
+.onas1 a{
+    color: black;
+}
+
+.onas1 a:hover{
+    color: #0d2f5a;
+}
+
+.onas1 a:active{
+    color: #6da9d2;
+}
+
+.onas p{
+    font-family: 'Tahoma';
+    letter-spacing: 1px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: black;
+    font-size: 25px;
+    text-align:start;
+    background-color: white;
+}
+
+.onas ol li{
+    font-family: 'Tahoma';
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-right: 60px;
+    color: black;
+    font-size: 25px;
+}
+
+.onas ul li{
+    font-family: 'Tahoma';
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-right: 60px;
+    color: black;
+    font-size: 25px;
+}
+
+.map {
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.strelka {
+    padding: 0px 70px 0px 0px;
+}
+
+h2{
+    font-family: 'Comic Sans MS';
+    letter-spacing: 2px;
+    color: black;
+    font-size: 35px;
+    text-align:start;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.ramkas {
+    width: 80%;
+    height: 20px;
+    margin-top: -2px;
+}

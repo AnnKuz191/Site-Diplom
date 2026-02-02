@@ -1,0 +1,287 @@
+body {
+    background: #000 url(images/fon3.png); /* Фоновый цвет и фоновый рисунок*/
+    color: #fff; /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+    background-size: 1875px;
+    }
+
+.osnov3 {
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.pricesss {
+    display: flex; align-items: flex-start; 
+}
+
+.pricesss img {
+    margin-top: 60px;
+}
+
+.price p{
+    font-family: 'Tahoma';
+    color: black;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    letter-spacing: 1px;
+}
+
+.diz {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.diz img{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.narug {
+    display: flex;  margin-bottom: 0px;
+}
+
+.narug img{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.poligr img{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.proch {
+    display: flex; 
+    align-items: flex-start;
+}
+
+.proch img{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-family: 'Comic Sans MS'
+}
+
+/* ФОТОГАЛЕРЕЯ */
+.sectionsassa {
+    padding: 0; 
+    margin: 0; 
+    height: 700px;
+    width: 1000px; 
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    margin-bottom: 50px;
+}
+.section {
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 1000px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.slide {
+    width: 500%;
+    height: 700px;
+    display: flex;
+    
+}
+
+.slide input {
+    display: none;
+    
+}
+
+.st {
+    width: 20%;
+    transition: 2s;
+    
+}
+
+.st img{
+    
+    width: 1000px;
+    height: 700px;
+}
+
+.nav-m{
+    position: absolute;
+    width: 1000px;
+    margin-top: -30px;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.m-btn {
+    border: 2px solid #1b2632;
+    padding: 7px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.m-btn:not(:last-child) {
+    margin-right: 30px;
+    
+}
+
+.m-bth:hover {
+    background-color: gray;
+}
+
+#radio1:checked ~.first {
+    margin-left: 0;
+}
+
+#radio2:checked ~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~.first {
+    margin-left: -60%;
+}
+
+.nav-auto {
+    position: absolute;
+    width: 500px;
+    margin-top: 670px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div {
+    border: 2px solid #1b2632;
+    padding: 7px;
+    border-radius: 15px;
+    transition:1s;
+}
+
+.nav-auto div:not(:last-child) {
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#radio1:checked ~.nav-auto .a-b1 {
+    background-color: #73fdff;
+}
+
+#radio2:checked ~.nav-auto .a-b2 {
+    background-color: #70fdb6;
+}
+
+#radio3:checked ~.nav-auto .a-b3 {
+    background-color: #fd8279;
+}
+
+#radio4:checked ~.nav-auto .a-b4 {
+    background-color: #fefe9a;
+}
+
+
+/* КНОПОЧКИ */
+
+.polig-button {
+  width: 100%;
+  max-width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 20px 63px 15px 0px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: 'Comic Sans MS';
+  text-align: center;
+  color: #fff;
+  background: #eb9f11;
+  cursor: pointer;
+ 
+  /* Важные стили для анимации */
+  position: relative;
+  overflow: hidden;
+}
+
+.polig-button:hover {
+    background: #f6cd80;
+    color: white;
+    box-shadow: 0 0 5px #f6cd80,
+                0 0 5px #f6cd80,
+                0 0 5px #f6cd80,
+                0 0 5px #f6cd80;
+}
+
+.polig-button:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 200px;
+  margin: 15px 15px 15px 15px;
+  background: #fff;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0.5) 100%
+  );
+  left: -40px;
+  top: -100px;
+  z-index: 1;
+  transform: rotate(45deg);
+  position: absolute;
+  animation: movingFlare 3s ease-in-out 0.05s infinite;
+}
+ 
+@keyframes movingFlare {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
+}

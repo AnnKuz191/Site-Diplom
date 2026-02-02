@@ -1,0 +1,283 @@
+body {
+    background: #000 url(images/fon3.png); /* Фоновый цвет и фоновый рисунок*/
+    color: #fff; /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+    background-size: 1875px;
+    }
+
+.osnov3{
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.osnov4{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.contact {
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ikonkafor {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.ikonkafor1 {
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.ikonkafor2 {
+    background-color: white;
+    height: 200px;
+    display: flex;
+    text-align:start;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-right: 55px;
+}
+
+.ikonkafor3 {
+    background-color: white;
+    height: 300px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.ikonkafor1 p{
+    font-family: 'Tahoma';
+    font-size: 20px;
+    color: black;
+    line-height: 160%;
+}
+
+.ikonkafor2 p{
+    font-family: 'Tahoma';
+    font-size: 20px;
+    color: black;
+    line-height: 160%;
+}
+
+.ikonkafor3 p{
+    font-family: 'Tahoma';
+    font-size: 20px;
+    color: black;
+    line-height: 160%;
+    margin-top: 0px; 
+    margin-bottom: 8px
+}
+
+.ikonkafor2 a:link {
+  color: #497DDD; 
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Tahoma';
+  border-bottom: 1px dashed; 
+}
+.ikonkafor2 a:visited {
+  color: #EF7D55;
+}
+.ikonkafor2 a:hover {
+  color: #154088; 
+  border-bottom: .07em solid;
+}
+.ikonkafor2 a:active {
+  color: #497DDD; 
+  border-bottom: 1px dashed;
+}
+
+.ikonkafor1 a:link {
+  color: #497DDD; 
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Tahoma';
+  border-bottom: 1px dashed; 
+}
+
+.ikonkafor3 a:link {
+    color: #497DDD; 
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Tahoma';
+    border-bottom: 1px dashed; 
+  }
+
+.ikonkafor1 a:visited {
+  color: #EF7D55;
+}
+.ikonkafor1 a:hover {
+  color: #154088; 
+  border-bottom: .07em solid;
+}
+.ikonkafor1 a:active {
+  color: #EF7D55; 
+  border-bottom: 1px dashed;
+}
+
+.ikonkafor3 a:visited {
+    color: #EF7D55;
+  }
+  .ikonkafor3 a:hover {
+    color: #154088; 
+    border-bottom: .07em solid;
+  }
+  .ikonkafor3 a:active {
+    color: #EF7D55; 
+    border-bottom: 1px dashed;
+  }
+
+.ikonkafor1 img{
+    padding: 10px 40px;
+}
+.ikonkafor3 img{
+    padding: 10px 40px;
+}
+
+
+.napisat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ramkas2 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+/* ФОРМА*/
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+/* Ограничиваем контейнер по ширине 1000px */
+.container {
+    width: 800px;
+    height: 500px;
+    max-width: 90%;
+    padding: 0 20px;
+    margin-top: 0px;
+    margin-left: -20px;
+}
+
+.forma {
+    width: 700px;
+    height: 430px;
+    display: flex; /* делаем колонки в ряд */
+    align-items: flex-start; /* выравниваем по центру */
+    flex-direction: column;
+    justify-content: flex-start; /* колонки растянутся на всю ширину */
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 44px 4px rgba(34, 60, 80, 0.2);
+}
+
+.forma-nte {
+    width: 700px;
+    margin-left:40px;
+}
+
+.form-control {
+    border-radius: 5px;
+    width: 600px;
+    height: 35px;
+    font-family: 'Tahoma';
+    padding: 7px 15px;
+    background-color: #eef6ff;
+    border: 2px solid #a9c0ef;
+}
+
+.form-control-sms {
+    border-radius: 5px;
+    width: 600px;
+    height: 100px;
+    padding: 10px 15px;
+    font-family: 'Tahoma';
+    padding: 7px 10px;
+    background-color: #eef6ff;
+    border: 2px solid #a9c0ef;
+}
+
+.namee {
+    padding: 10px 15px;
+    
+}
+
+.emaill {
+    padding: 10px 15px;
+}
+
+.tell {
+    padding: 10px 15px;
+}
+
+.smss {
+    padding: 10px 5px;
+    width: 700px;
+}
+
+.btn {
+    margin: 10px 10px 10px 55px;
+    background-color: #2255bb;
+    border: 2px solid #050d1d;
+}
+
+.btn:hover {
+    margin: 10px 10px 10px 55px;
+    background-color: #366dda;
+    border: 2px solid #050d1d;
+    box-shadow: 0px 0px 2px 2px rgba(14, 15, 64);
+}
+
+.btn:active {
+    margin: 10px 10px 10px 55px;
+    background-color: #102756;
+}
+
+.map {
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-evenly;
+}
+
+/* КОНЕЦ ФОРМЫ */
